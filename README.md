@@ -10,11 +10,11 @@
 
 ---
 
-## Introduction
+## 📖 Introduction
 
 This repository contains the official implementation of the **FTFNet** architecture and the associated **sp-dataset** for tactile data processing, as described in our paper. This project aims to provide a reproducible pipeline for tactile sensing research.
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```
 .
@@ -35,7 +35,7 @@ This repository contains the official implementation of the **FTFNet** architect
 └── README.md                         # Project documentation
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Requirements
 
@@ -71,7 +71,7 @@ To start the training or evaluation process, run the `main.py` script:
 python main.py
 ```
 
-## Key Components
+## 🧠 Key Components
 
 ### FTFNet Model (`model/FTFNet.py`)
 
@@ -101,18 +101,18 @@ This directory contains model weights saved from Leave-One-Task-Out cross-valida
 - `normalizer_params.json`: Stores scaling factors used during training to ensure consistent data preprocessing during inference
 - Other visualization results and evaluation metrics
 
-## Experiments & Reproducibility
+## 📊 Experiments & Reproducibility
 
 The provided code and resources allow for the full reproduction of the results reported in the paper. By using the scripts in this repository and the provided model checkpoints, you can verify the performance of FTFNet on the SP-dataset.
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit Issues and Pull Requests to improve this project.
 
-## Contact
+## 📧 Contact
 
 For any questions regarding the code or dataset, please submit an Issue in this repository.
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 We thank all researchers and developers who have contributed to this project.
